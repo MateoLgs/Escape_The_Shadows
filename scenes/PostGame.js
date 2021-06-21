@@ -13,10 +13,10 @@ class PostGame extends Phaser.Scene {
         keyZ.reset(); 
 
         pvPlayer=100
-        cooldownShuriken = 20;
+        cooldownShuriken = 120;
         gravity=1000;
         playerInvincible=false;
-        shurikenLeft =5;
+        shurikenLeft =0;
         teleportationsLeft = 0;
 
         pageLevelMenu = 1;

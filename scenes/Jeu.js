@@ -1424,7 +1424,6 @@ console.log("test")
     declareVariables() {
 
 
-        var level="level1";
         var teleportationsLeft = 0;
         var teleportationsLeftText;
         
@@ -1615,7 +1614,6 @@ console.log("test")
         var laserDrones
         
         //////////SKINS/////////////////
-        var playerSkin="ninja";
         var skinAfficheRandomUnlockSkinImage;
         var priceToPaySkinNumber = 50;
         
@@ -2044,9 +2042,9 @@ this.anims.create({
         console.timeEnd('1')
 
         console.time('2')
-        this.keyboardGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.80, (this.cameras.main.centerY * 2) * 0.1, 'keyboardGameModeButton').setScrollFactor(0).setScale(1).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(1);
-        this.mobileGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.80, (this.cameras.main.centerY * 2) * 0.1, 'mobileGameModeButton').setScrollFactor(0).setScale(1).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(0);
-        this.controllerGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.80, (this.cameras.main.centerY * 2) * 0.1, 'controllerGameModeButton').setScrollFactor(0).setScale(1.5).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(0);
+        this.keyboardGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.20, (this.cameras.main.centerY * 2) * 0.05, 'keyboardGameModeButton').setScrollFactor(0).setScale(1).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(1);
+        this.mobileGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.20, (this.cameras.main.centerY * 2) * 0.05, 'mobileGameModeButton').setScrollFactor(0).setScale(1).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(0);
+        this.controllerGameModeButton = this.physics.add.sprite((this.cameras.main.centerX * 2) * 0.20, (this.cameras.main.centerY * 2) * 0.05, 'controllerGameModeButton').setScrollFactor(0).setScale(1.5).setDepth(10).setOrigin(0.5, 0.5).setInteractive().setAlpha(0);
 
 
         console.timeEnd('2')
