@@ -1,0 +1,7 @@
+Controles: 
+	Q►déplacement a gauche
+	D►Déplacement a droite
+	Z►Saut
+	Flèche bas►Tir boule de feu
+	
+
